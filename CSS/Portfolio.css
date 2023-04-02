@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+main{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+main .Portfolio-page{
+    border-top: 4px solid rgb(55, 55, 210);
+    border-bottom: 4px solid rgb(55, 55, 210);
+    padding: 60px;
+
+}
+h1 {
+    font-size: 50px;
+    line-height: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(55, 55, 210);
+    font-family: "montserrat", sans-serif;
+
+}
+main .Portfolio-page-intro p {
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 20px;
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.Portfolio-pictures{   
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.Portfolio-pictures-padding{
+    width: 433px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    box-shadow: 0 -1px 10px 1px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Portfolio-pictures-padding:nth-child(1){
+    background-image: url(../Images/Project1-Team-Mango-App-hover.png);
+}
+.Portfolio-pictures-padding:nth-child(2){
+    background-image: url(../Images/IndividuellaDB-hover.png);
+}
+.Portfolio-pictures-padding:nth-child(1):hover{
+    background-image: url(../Images/Project1-Team-Mango-App.png);
+    transition: ease-in-out 200ms;
+    -webkit-transition: ease-in-out 100ms;
+    -moz-transition: ease-in-out 200ms;
+    -ms-transition: ease-in-out 200ms;
+    -o-transition: ease-in-out 200ms;
+}
+.Portfolio-pictures-padding:nth-child(2):hover{
+    background-image: url(../Images/IndividuellaDB.png);
+    transition: ease-in-out 200ms;
+    -webkit-transition: ease-in-out 100ms;
+    -moz-transition: ease-in-out 200ms;
+    -ms-transition: ease-in-out 200ms;
+    -o-transition: ease-in-out 200ms;
+}
+.Portfolio-pictures-padding h3{
+    color: rgb(55, 55, 210);
+    font-family: "montserrat", sans-serif;
+    text-shadow: 1px 1px 10px 1px;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}

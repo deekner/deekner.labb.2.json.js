@@ -1,0 +1,46 @@
+{
+    "education": [
+      {
+        "degree": "IT och information media teknik",
+        "School": "De La Gardie Gymnasiet Lidköping",
+        "graduation_year": "2015"
+      },
+      {
+        "degree": "Japanese Language School Tokyo Japan",
+        "School": "Kai Nihongo Gakkou",
+        "graduation_year": "2017"
+      },
+      {
+        "degree": "Software Developer",
+        "School": "Campus Varberg",
+        "graduation_year": "2024"
+      }
+    ],
+    "work_experience": [
+      {
+        "position": "Montör",
+        "company": "Viskan Spa",
+        "start_date": "2019",
+        "end_date": "2022-09-05",
+        "Roles_and_resposibilities": [
+            "Tillverkade jacuzzi och spa tunnor, teamleader"
+            
+          
+        ]
+      },
+      {
+        "position": "Däckmontör",
+        "company": "Däckmagasinet",
+        "start_date": "2017",
+        "end_date": "2018",
+        "Roles_and_resposibilities": [
+          "Däckskifte",
+          " Tvätta däck",
+          " & Lagerarbete"
+        ]
+      }
+    ]
+  }
+  
+
+

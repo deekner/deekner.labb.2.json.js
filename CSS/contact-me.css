@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: "montserrat", sans-serif;
+}
+.contact-me { /* Fråga om div margin-top sätter avstånd från navbar*/
+    border-top: 4px solid rgb(55, 55, 210);
+    border-bottom: 4px solid rgb(55, 55, 210);
+    padding: 50px;
+    margin-top: 10rem;
+
+
+}
+
+.contact-me h1 {
+    color:  rgb(55, 55, 210);
+}

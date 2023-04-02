@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0px 0px 0px 1px rgb(55, 55, 210);
+    
+}
+
+body{
+    background-color: rgb(40, 39, 46);
+}
+
+
+ul li {
+    margin-left: 10px;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 60px;
+}
+
+ul li a {
+    font-family: "montserrat", sans-serif;
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+    padding: 9px 20px;
+    /* background-color: rgba(56, 56, 231, 0.048); */
+    border-radius: 50px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    
+}
+
+ul li a:hover {
+    padding: 9px 20px;
+    background-color: rgba(55, 55, 210, 0.438);
+    border-radius: 50px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    
+    color: rgb(199, 199, 199);
+    transition: ease-in-out 500ms;
+    -webkit-transition: ease-in-out 500ms;
+    -moz-transition: ease-in-out 500ms;
+    -ms-transition: ease-in-out 500ms;
+    -o-transition: ease-in-out 500ms;
+}
+
+ul li a.active{
+    background-color: rgb(55, 55, 210);
+}
+
+
+
+/* responsive design */
+@media(max-width: 922px) {
+    .nav {
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: aliceblue;
+    block-size: fit-content;
+    font-size: 15px;
+    line-height: 40px;
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+    
+}
+
+.Main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main h2 {
+    color: rgb(55, 55, 210);
+}
+
+#education-list{
+    margin-bottom: 3rem;
+}
+
+#workExp-list{
+    margin-top: 3rem;
+}
+
+
+
+
+  
+
+
